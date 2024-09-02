@@ -1,38 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# RAG AI Agent
 
-## Getting Started
+A Retrieval-Augmented Generation (RAG) AI Agent designed to assist students in learning about their professors based on data from Rate My Professor website. The AI Agent is equipped with an intuitive interface that allows users to ask questions and receive responses generated from the data it was trained on.
 
-First, run the development server:
+## Project Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The RAG AI Agent was developed to provide students with insights and information about their professors by utilizing data from Rate My Professor. The agent can answer specific questions about professors, offering valuable insights based on student reviews and opinions. Currently, the agent operates on hardcoded data, with plans for future enhancements to allow real-time data fetching and training.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Professor Information Retrieval**:
+  - Users can ask the AI Agent questions about professors, and it will provide answers based on the reviews and opinions it was trained on.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Retrieval-Augmented Generation**:
+  - The AI Agent uses RAG techniques to generate accurate and relevant responses by retrieving the most pertinent data before generating the answer.
 
-## Learn More
+- **User-Friendly Interface**:
+  - The web app features a clean and intuitive UI, making it easy for students to interact with the AI Agent and get the information they need.
 
-To learn more about Next.js, take a look at the following resources:
+## Technologies Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Pinecone**: For training the AI Agent on data from Rate My Professor.
+- **Next.js**: For server-side rendering and building the application framework.
+- **Node.js**: For backend processing and API handling.
+- **React**: For creating an interactive user interface.
+- **Gemini API**: For generating the AI responses.
+- **Tailwind CSS**: For designing a responsive and visually appealing UI.
+- **Vercel**: For easy deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Usage
 
-## Deploy on Vercel
+Link: _coming soon_
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Ask Questions**: Students can enter questions about their professors into the interface, and the AI Agent will provide responses based on the data it was trained on.
+- **Receive Informed Responses**: The agent utilizes RAG techniques to ensure that the responses are both accurate and relevant, helping students make informed decisions.
+- **Future Enhancements**: The current version works with hardcoded data, but future updates will allow the agent to train on live data fetched directly from Rate My Professor.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-"# therapist-chatbot" 
-"# rag-chatbot" 
+
+## Authors
+
+- David Fortune Akinremi (moi 🙈)
